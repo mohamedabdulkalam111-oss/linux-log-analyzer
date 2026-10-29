@@ -50,3 +50,28 @@ This project demonstrates basic Python programming, Linux log analysis, input va
 
 ## Disclaimer
 This project is intended for educational purposes and uses sample authentication logs. Alerts indicate activity that may need investigation; they do not prove that an attack occurred.
+
+
+## Sample Output
+
+Example results from the sample authentication log:
+
+```text
+Security Status: REVIEW REQUIRED
+
+Total Log Lines: 15
+Successful Logins: 3
+Failed Logins: 12
+Total Login Events: 15
+Failure Percentage: 80.00%
+
+Failed Login Attempts by IP:
+192.168.1.10 -> 5 attempts
+192.168.1.20 -> 4 attempts
+192.168.1.30 -> 3 attempts
+
+IP with highest failed attempts: 192.168.1.10
+Number of attempts: 5
+```
+
+**Note:** These are results from sample data for educational purposes. A warning indicates activity that may require investigation; it does not prove an attack occurred.
